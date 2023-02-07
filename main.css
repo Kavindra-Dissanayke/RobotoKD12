@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Serif:ital,opsz@1,8..144&display=swap');
+.navbar-brand>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.navbar-toggler{
+    background-color: goldenrod!important;
+}
+.nav-outer{
+    background-color: #29FAF5 !important;
+}
+.dropdown-item:hover{
+    color: black!important;
+    background: #496C97;
+
+}
+
+
+.dropdown-item{
+    font-size: 13px!important;
+}
+
+.nav-item>a{
+    color: #DAA520!important;
+    font-style: italic;!important;
+    font-size: 15px;
+    padding-left: 3px!important;
+    padding-right: 3px;!important;
+}
+.nav-link:hover{
+    color: #010006!important;
+    border-bottom: 1px solid black;
+
+}
+.nav-link {
+
+}
+.dropdown-item{
+    color: darkgoldenrod!important;
+    font-weight: unset!important;
+}
+.main-page1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-top:30px ;
+}
+.Main{
+    flex: 1;
+    transition: 1.5s ease-in-out;
+    border-radius: 100%;
+
+}
+.Main:first-child:hover{
+cursor: pointer;
+    margin-top: -30px;
+}
+.Main:first-child{
+    background-image: url("Image/R.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.Main:first-child
+.Main main-paragraph>h1{
+    margin-left: 200px;
+    align-items: center;
+
+}
+
+.shadow-wraper{
+    background-color: rgba(15, 23, 43,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    border-radius: 100%;
+}
+.Main:last-child{
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2106/serezniy210612519/171476481-woman-playing-chess-closeup-view.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.shadow-wraper>h1{
+    margin-left: 216px;
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+}
+.shadow-wraper>p{
+    margin: 18px 40px;
+    color: #9AD6FA;
+    font-family: 'Roboto Serif', serif;
+    font-size: 15px;
+}
+.middle-wrapper{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-top: 10px;
+
+}
+.middle{
+    flex: 1;
+}
+
+.blog-inner{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item-wrapper{
+    width: 47%;
+    height: 100%;
+}
+.item-wrapper>h6{
+    color: #29FAF5;
+    font-family: 'Roboto Serif', serif;
+    margin: 0 50px;
+}
+.item-wrapper>h1{
+    color: #ECEA97;
+    margin-left:40%;
+}
+.item-wrapper>p{
+    color: #DAA520;
+    font-family: 'Roboto Serif', serif;
+    align-items: center;
+    margin-left:70px;
+    margin-right:70px;
+}
+.item-wrapper{
+    background-image: url("Image/img.png");
+    background-size: cover;
+}
